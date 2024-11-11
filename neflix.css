@@ -1,0 +1,378 @@
+body{
+    background-color: rgb(25, 3, 51);
+}
+nav{
+    height: 70px;
+    width: 100%;
+    
+    position: relative;
+   
+}
+nav img{
+    height: 100px;
+    width: 350px;
+
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+button{
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-size: medium;
+    position: relative;
+    left: 1100px;
+}
+#net{
+    border-radius: 10px;
+    font-size: medium;
+    position: relative;
+    left: 1100px;
+    color: rgb(22, 26, 26);
+}
+#img2 img{
+    height: 500px;
+    width: 1550px;
+    position: relative;
+    top: 40px;
+
+}
+#img2{
+    background-color: black;
+    position: relative;
+    top:40px
+    
+}
+
+
+.navbar ul{
+    display: flex;
+    gap:90px;
+    align-items: center;
+    position: relative;
+    left: 90px;
+    color: aliceblue;
+    
+}
+.navbar ul li{
+    display: flex;
+    align-items: center
+}
+.navbar{
+    background-color: black ;
+    position: relative;
+   
+    width: 700px;
+    height: 60px;
+    left: 330px;
+    top:25px;
+    border-radius:35px;
+    border: solid 1px rgb(255, 255, 255,0.438);
+     font-size: 1rem;
+}
+   
+}
+
+.texth1{
+   position: relative;
+    right:600px;
+}
+.imagedn {
+    display: flex;
+    flex-direction: row;
+   
+    gap:10px;
+    position: relative;
+    top: 800px;
+    left: 40px;
+    overflow: hidden;
+    overflow-x: scroll;
+   
+
+}
+
+.inp input{
+    width: 300px;
+    height: 45px;
+    background-color: #000000;
+    border-radius:35px;
+    border: solid 1px rgb(255, 255, 255,0.438);
+     font-size: 1rem;
+     color: aliceblue;
+     position: relative;
+     top: 750px;
+     left: 600px;
+}
+.inp button{
+    width: 200px;
+    height: 45px;
+    background-color:red;
+    border-radius:35px;
+    border: solid 1px rgb(255, 255, 255,0.438);
+     font-size: 1rem;
+     color: aliceblue;
+     position: relative;
+     top: 750px;
+     left: 600px;
+
+}
+.imagedn img{
+    width: 200px;
+    height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.imagedn::-webkit-scrollbar{
+    display: none;
+}
+.imagedn img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+.btnarr button{
+    color: black;
+    background-color: rgb(162, 255, 0);
+    
+    position: relative;
+    top: 800px;
+    right: 500px;
+}
+.unlimited h1{
+    position: absolute;
+    color: aliceblue;
+    top:400px;
+    right: 500px;
+    width: 530px;
+    font-size: 50px;
+    
+
+
+}
+
+.unlimitedtxt h1{
+    position: absolute;
+    color: rgba(232, 234, 235, 0.893);
+    top:550px;
+    right: 470px;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 300px;
+
+
+}
+.trendtxt h1{
+    position: absolute;
+    color: rgba(232, 234, 235, 0.893);
+    top:790px;
+    right: 1050px;
+    width: 500px;
+    font-size: 40px;
+    
+
+
+}
+.btnarr{
+    position: absolute;
+    left: 400px;
+    top:90px
+}
+.onlyon{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 800px;
+    left: 50px;
+}
+.card{
+    display: flex;
+    position: relative;
+    top:900px;
+    left: 50px;
+    gap:20px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    
+}
+.card h1{
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+
+}
+.card h2{
+    color: aliceblue;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+.mobcont{
+    background-color: rgb(19, 80, 99);
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+
+   
+}
+.mobcont:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+.Basic{
+    background-color: rgb(63, 107, 130);
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+   
+}
+.Basic:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+
+.Premium{
+    background-color: rgb(0, 0, 136);
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+  
+}
+.Premium:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+.Standard{
+    background-color: rgb(0, 0, 136);
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+
+}
+.Standard:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+
+}
+.cardreas{
+    display: flex;
+    position: relative;
+    top:950px;
+    
+  
+    gap:20px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    left: 50px;
+  
+    
+}
+.cardreas h1{
+    color: aliceblue;
+    box-shadow: 0 82px 86px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+ 
+    text-align: center;
+    position: relative;
+    top: 100px;
+    
+   
+}
+.standtoil{
+    background-color: black;
+    width: 350px;
+    height: 200px;
+
+}
+.standtoil h1{
+    position: relative;
+}
+.cancel{
+    background-color: black;
+    width: 350px;
+    height: 200px;
+
+}
+.kids{
+    background-color: black;
+    width: 350px;
+    height: 200px;
+
+}
+.lap{
+    background-color: black;
+    width: 350px;
+    height: 200px;
+
+}
+.morehead{
+    display: flex;
+    position: relative;
+    top:930px;
+    
+  
+
+    left: 50px;
+    color:white;
+
+}
+.planh1{
+    display: flex;
+    position: relative;
+    top:850px;
+
+    left: 50px;
+    color:white;
+
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 900px;
+    left: 50px;
+    color: aliceblue;
+    gap: 20px;
+
+}
+.whtnet{
+    color: aliceblue;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 4px solid transparent;
+    font-size: 20px;
+     background-color: black;
+     
+    position: relative;
+    top: 100px;
+    left: 10px;
+
+
+}
+.whtnet:hover{
+    background-color: black;
+    box-shadow: 0 58px 56px rgba(13, 13, 13, 0.3); 
+    filter: brightness(4.2); 
+    border: 4px solid #000000; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+
+
+}
+.whtnet h1{
+    font-size: 30px;
+
+    
+}
+.freq{
+ position: relative;
+ top: 950px;
+ left: 50px;
+ color: aliceblue;
+}
